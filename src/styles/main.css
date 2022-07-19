@@ -1,0 +1,37 @@
+/* Fonts */
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/font/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/font/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/font/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+/* End of Fonts */
+
+/* Color Var */
+:root {
+  --mainColor: #5d8604;
+  --mainColorLight: #d2e6a9;
+  --secondaryColor: #000;
+  --textColor: #eee;
+}
+/* End of Color Var */
+
+/* Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* End of Reset */
