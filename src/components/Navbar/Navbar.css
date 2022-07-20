@@ -6,26 +6,30 @@ header {
   justify-content: space-between;
   height: 80px;
   padding: 0 2rem;
-  background-color: orange;
+  background-color: transparent;
   color: var(--secondaryColor);
 }
 
 header img {
   top: 2rem;
   left: 2rem;
-  height: 60px;
+  image-rendering: optimizeQuality;
+  height: 80px;
+  margin-top: 5px;
 }
 
 nav a {
   margin: 0 2rem;
   color: var(--secondaryColor);
   text-decoration: none;
+  font-size: 1.4rem;
 }
 
 header nav a:hover {
-  color: #d2e6a9;
-  border-bottom: 2px solid#d2e6a9;
-  transition: 0.3s all ease-in-out;
+  color: #fff;
+  padding: 10px;
+  background-color: var(--mainColor);
+  transition: 0.1s all ease-in-out;
 }
 
 nav a.nav-link.active {
@@ -80,11 +84,12 @@ header .nav-btn {
     color: var(--textColor);
   }
 
-  header nav a:hover {
-    color: #d2e6a9;
+  nav a:hover {
+    color: #fff;
     margin-bottom: -2px;
-    border-bottom: 2px solid#d2e6a9;
-    transition: 0.2s all ease-in-out;
+    border: 2px solid;
+    background: var(--mainColorLight);
+    transition: 0.1s all ease-in-out;
   }
 
   header .responsive_nav {
