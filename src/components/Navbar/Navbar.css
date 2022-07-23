@@ -5,9 +5,15 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 80px;
+  min-height: 100px;
   padding: 0 2rem;
   background-color: transparent;
   color: var(--secondaryColor);
+  width: 100%;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+  background-color: white;
+  position: sticky;
+  position: -webkit-sticky;
 }
 
 header img {
@@ -15,25 +21,25 @@ header img {
   left: 2rem;
   image-rendering: optimizeQuality;
   height: 80px;
-  margin-top: 5px;
 }
 
 nav a {
   margin: 0 2rem;
   color: var(--secondaryColor);
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
-header nav a:hover {
+nav a:hover {
   color: #fff;
   padding: 10px;
   background-color: var(--mainColor);
   transition: 0.1s all ease-in-out;
+  cursor: pointer;
 }
 
-nav a.nav-link.active {
-  color: var(--mainColorLight);
+.nav Link:active {
+  background-color: var(--mainColor);
 }
 
 header .nav-btn {
@@ -58,8 +64,8 @@ header .nav-btn {
   header .nav-close-btn {
     color: var(--textColor);
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 1rem;
+    right: 1rem;
   }
 
   nav a {
@@ -79,6 +85,7 @@ header .nav-btn {
     background-color: var(--mainColor);
     transition: 0.5s all ease-in;
     transform: translateY(-100vh);
+    opacity: 85%;
   }
   header nav a {
     color: var(--textColor);
@@ -100,5 +107,16 @@ header .nav-btn {
 @media only screen and (max-width: 768px) {
   header nav {
     flex-direction: column;
+  }
+
+  header span img {
+    margin-left: -19px;
+    margin-top: -10px;
+    height: 53px;
+  }
+
+  nav .nav-close-btn {
+    margin-top: 15px;
+    margin-right: 12px;
   }
 }

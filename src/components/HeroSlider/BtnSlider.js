@@ -10,7 +10,10 @@ function BtnSlider({ direction, moveSlide }) {
       onClbuttonck={moveSlide}
       className={direction === "next" ? "btn-slide next" : "btn-slide prev"}
     >
-      <img src={direction === "next" ? arrowRight : arrowLeft} />
+      <img
+        src={direction === "next" ? arrowRight : arrowLeft}
+        alt="header img"
+      />
     </button>
   );
 }
