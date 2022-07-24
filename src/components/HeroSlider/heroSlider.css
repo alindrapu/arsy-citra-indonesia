@@ -1,5 +1,5 @@
 .container-slider {
-  width: 100vw;
+  width: 98.7vw;
   height: 100vh;
   display: flex;
   position: absolute;
@@ -14,7 +14,7 @@
   height: 100vh;
   position: absolute;
   opacity: 0;
-  transition: opacity ease-in-out 0.4s;
+  transition: opacity ease-in-out 1s;
 }
 .slide img {
   width: 100vw;

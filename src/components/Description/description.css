@@ -1,3 +1,26 @@
-/* .container-description img {
-  visibility: 
-} */
+.container-description {
+  width: 100%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 40vw 50vw;
+  justify-items: center;
+  margin-top: 10%;
+}
+
+.container-description p {
+  text-align: justify;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 300;
+  word-spacing: 2px;
+  margin-left: -20px;
+  border-left: 2px solid;
+  padding-top: 10px;
+  padding-left: 20px;
+  height: max-content;
+}
+
+.container-description img {
+  height: 50%;
+}

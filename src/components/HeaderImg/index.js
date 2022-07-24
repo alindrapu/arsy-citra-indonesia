@@ -8,7 +8,7 @@ const HeaderImg = () => {
       <img
         src={arsyHeader}
         alt="header"
-        className="animate__animated animate__fadeIn"
+        className="animate__animated animate__zoomIn"
       />
     </div>
   );
