@@ -9,7 +9,7 @@ header {
   background-color: transparent;
   color: var(--secondaryColor);
   width: 100%;
-  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+
   background-color: transparent;
   position: sticky;
   position: -webkit-sticky;
@@ -63,6 +63,7 @@ header .nav-btn {
 header.scrolled {
   background-color: var(--mainColor);
   transition: all 0.5s ease-in-out;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 
 header.scrolled nav a {

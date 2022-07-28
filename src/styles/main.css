@@ -32,6 +32,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  max-width: 1080px;
 }
 
 /* End of Reset */

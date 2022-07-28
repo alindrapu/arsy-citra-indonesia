@@ -1,5 +1,5 @@
 .container-slider {
-  width: 98.7vw;
+  width: 100vw;
   height: 100vh;
   display: flex;
   position: absolute;
@@ -20,6 +20,8 @@
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+  object-position: left;
+  image-rendering: auto;
 }
 .active-anim {
   opacity: 1;
@@ -61,6 +63,13 @@
 }
 
 /* Responsive CSS */
+
+@media screen and (max-width: 1024px) {
+  .container-slider {
+    width: 100vw;
+    height: 100vh;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .container-slider {

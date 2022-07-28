@@ -5,7 +5,7 @@ import "./description.css";
 
 const Description = () => {
   return (
-    <section className="container-description" id="about-us">
+    <div className="container-description" id="about-us">
       <img src={logoBlack} alt="desc-logo" />
       <p>
         Arsy Citra Indonesia is a consulting service company that has been
@@ -18,7 +18,7 @@ const Description = () => {
         government at the central, provincial and regional levels to private
         companies.
       </p>
-    </section>
+    </div>
   );
 };
 
