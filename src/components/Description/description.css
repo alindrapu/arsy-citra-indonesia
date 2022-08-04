@@ -1,11 +1,9 @@
 .container-description {
-  width: 100%;
-  display: grid;
-  margin: auto;
-  grid-template-columns: 1fr 1fr;
-  grid-template-columns: 40vw 50vw;
-  justify-items: center;
-  margin-top: 100px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
 }
 
 .container-description p {
@@ -18,20 +16,24 @@
   border-left: 2px solid;
   padding-top: 10px;
   padding-left: 20px;
-  height: max-content;
+  max-width: 60vw;
 }
 
 .container-description img {
   height: 30vh;
+  padding-left: 0px;
 }
 
 /* Responsive CSS */
 @media screen and (max-width: 1024px) {
   .container-description {
-    margin-top: 50%;
+    margin-top: 2%;
   }
+}
 
-  /* .container-description img {
-  } */
+@media screen and (max-width: 768px) {
+  .container-description {
+    margin-top: 10%;
+  }
 }
 /* End of Responsive CSS/ */
