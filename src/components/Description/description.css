@@ -1,9 +1,6 @@
 .container-description {
-  width: auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: auto;
+  justify-content: center;
 }
 
 .container-description p {
@@ -20,11 +17,12 @@
 }
 
 .container-description img {
+  display: flex;
+  justify-content: center;
   height: 30vh;
-  padding-left: 0px;
+  margin-right: 50px;
 }
 
-/* Responsive CSS */
 @media screen and (max-width: 1024px) {
   .container-description {
     margin-top: 2%;
@@ -33,7 +31,11 @@
 
 @media screen and (max-width: 768px) {
   .container-description {
-    margin-top: 10%;
+    flex-direction: column;
+  }
+
+  .container-description p {
+    border-top: 2px solid;
+    border-left: none;
   }
 }
-/* End of Responsive CSS/ */

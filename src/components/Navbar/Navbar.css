@@ -141,10 +141,8 @@ header.scrolled nav a:hover {
     flex-direction: column;
   }
 
-  header span img {
-    margin-left: -19px;
-    margin-top: -10px;
-    height: 53px;
+  header span {
+    margin-left: -10px;
   }
 
   nav .nav-close-btn {
