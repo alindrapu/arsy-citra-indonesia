@@ -42,8 +42,8 @@ const Navbar = () => {
         <Link activeClass="active" smooth spy to="about-us">
           About Us
         </Link>
-        <Link activeClass="active" smooth spy to="scope">
-          Scope
+        <Link activeClass="active" smooth spy to="our-services">
+          Our Services
         </Link>
         <Link activeClass="active" smooth spy to="contact-us">
           Contact Us
