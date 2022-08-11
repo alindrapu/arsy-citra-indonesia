@@ -1,11 +1,12 @@
 .container-description {
   display: flex;
   justify-content: center;
+  padding-top: 200px;
 }
 
 .container-description p {
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-style: italic;
   font-weight: 300;
   word-spacing: 2px;
@@ -19,11 +20,11 @@
 .container-description img {
   display: flex;
   justify-content: center;
-  height: 30vh;
-  margin-right: 50px;
+  height: 20vh;
+  padding-right: 150px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .container-description {
     padding-top: 50px;
   }

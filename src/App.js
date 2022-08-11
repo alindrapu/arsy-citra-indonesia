@@ -1,4 +1,5 @@
 import Description from "./components/Description";
+import FeaturedWork from "./components/FeaturedWork";
 import HeaderImg from "./components/HeaderImg";
 import HeroSlider from "./components/HeroSlider";
 import Navbar from "./components/Navbar";
@@ -13,6 +14,7 @@ function App() {
       <HeaderImg />
       <Description />
       <OurServices />
+      <FeaturedWork />
     </>
   );
 }
