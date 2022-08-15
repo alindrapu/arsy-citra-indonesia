@@ -33,6 +33,8 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   max-width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* End of Reset */

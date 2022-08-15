@@ -14,7 +14,7 @@ function App() {
       <HeaderImg />
       <Description />
       <OurServices />
-      <FeaturedWork />
+      {/* <FeaturedWork /> */}
     </>
   );
 }
