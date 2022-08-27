@@ -9,12 +9,12 @@ header {
   background-color: transparent;
   color: var(--secondaryColor);
   width: 100%;
-
   background-color: transparent;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   transition: all 0.5s ease-in-out;
+  z-index: 999;
 }
 
 header img {

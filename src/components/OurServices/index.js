@@ -1,27 +1,33 @@
 import "./ourServices.css";
-// import { Button, Card, Row, Col } from "react-bootstrap";
+import { Button, Card, Row, Col } from "react-bootstrap";
 
 const OurServices = () => {
   return (
-    <div className="services-container" id="our-services">
+    <Row id="our-services">
       <span>
         <h1>Our Services :</h1>
       </span>
-      <div className="cards-container">
-        <div className="study-card card">
-          <img src="http://localhost:3000/imgs/study.png" alt="" />
-          <p>study</p>
-        </div>
-        <div className="planning-card card">
-          <img src="http://localhost:3000/imgs/planning.png" alt="" />
-          <p>planning</p>
-        </div>
-        <div className="design-card card">
-          <img src="http://localhost:3000/imgs/design.png" alt="" />
-          <p>design</p>
-        </div>
-      </div>
-    </div>
+      <Col className="cards-container">
+        <Card className="text-white">
+          <Card.Img src="http://localhost:3000/imgs/design.png" alt="design" />
+          <Card.ImgOverlay>
+            <Card.Title>design</Card.Title>
+          </Card.ImgOverlay>
+        </Card>
+        <Card className="text-white">
+          <Card.Img src="http://localhost:3000/imgs/design.png" alt="design" />
+          <Card.ImgOverlay>
+            <Card.Title>design</Card.Title>
+          </Card.ImgOverlay>
+        </Card>
+        <Card className="text-white">
+          <Card.Img src="http://localhost:3000/imgs/design.png" alt="design" />
+          <Card.ImgOverlay>
+            <Card.Title>design</Card.Title>
+          </Card.ImgOverlay>
+        </Card>
+      </Col>
+    </Row>
   );
 };
 
